@@ -1,0 +1,80 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+h1 {
+  color: #065a82;
+  border-bottom: 2px solid #065a82;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Formulario de búsqueda */
+form {
+  margin-bottom: 1.5rem;
+}
+
+input[type="text"],
+select {
+  padding: 0.4rem 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.95rem;
+}
+
+button {
+  padding: 0.4rem 0.8rem;
+  background: #065a82;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+button:hover {
+  background: #054a6e;
+}
+
+/* Tabla */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+th {
+  background: #065a82;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+/* Enlaces */
+a {
+  color: #065a82;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Mensajes */
+p {
+  margin-bottom: 1rem;
+}
